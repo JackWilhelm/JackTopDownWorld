@@ -10,6 +10,7 @@ class TinyTown extends Phaser.Scene {
     }
 
     create() {
+        document.getElementById('description').innerHTML = '<h2>Welcome to Bucketsberg</h2>'
         // Add a tile map
         // https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectFactory.html#tilemap__anchor
         // "map" refers to the key from load.tilemapTiledJSON
@@ -27,8 +28,10 @@ class TinyTown extends Phaser.Scene {
         // https://newdocs.phaser.io/docs/3.54.0/Phaser.Tilemaps.Tilemap#createLayer
         this.grassLayer = this.map.createLayer("Grass-n-Houses", this.tileset, 0, 0);
         this.treeLayer = this.map.createLayer("Trees-n-Fences", this.tileset, 0, 0);
+        this.bLayer = this.map.createLayer("Buckets-n-Bombs", this.tileset, 0, 0);
         this.grassLayer.setScale(4.0);
         this.treeLayer.setScale(4.0);
+        this.bLayer.setScale(4.0);
 
     }
 

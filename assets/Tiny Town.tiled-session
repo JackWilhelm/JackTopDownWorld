@@ -3,21 +3,36 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "Tiny Town.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "Tiny Town.tmx": {
+            "scale": 2.44625,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 80.12263668880941,
+                "y": 69.9029126213592
+            }
+        },
+        "Tiny Town.tmx#tiny-town-packed": {
+            "scaleInDock": 1
+        }
     },
+    "last.exportedFilePath": "C:/Users/wilhe/CMPM120/TopDownWorld/assets",
     "last.imagePath": "C:/Users/wilhe/CMPM120/TopDownWorld/assets",
     "map.height": 10,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
     "map.width": 10,
     "openFiles": [
+        "Tiny Town.tmx"
     ],
     "project": "Tiny Town.tiled-project",
     "recentFiles": [
+        "Tiny Town.tmx"
     ],
     "tileset.embedInMap": true,
     "tileset.tileSize": {
